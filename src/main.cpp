@@ -1,6 +1,7 @@
 #include <iostream>
 #include <cstring>
 
+// function implementations are in the named source files
 void run_stack_tests(); 
 void run_passing_tests();
 void run_benchmarks();
