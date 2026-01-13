@@ -32,6 +32,6 @@ void run_stack_tests() {
     std::cout << "\n- Running Extra Large Stack Test\n";
     test_extra_large_stack();
 
-    std::cout << "\n- Running **Very** Large Stack Test\n";
+    std::cout << "\n- Running Very Large Stack Test\n";
     test_very_large_stack();
 }
