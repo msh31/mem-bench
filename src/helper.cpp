@@ -4,6 +4,7 @@
 #include <fstream>
 #include <ostream>
 #include <string>
+#include <sys/resource.h>
 #endif
 
 #ifdef __APPLE__
