@@ -17,6 +17,12 @@ void run_stack_tests();
 void run_passing_tests();
 void run_benchmarks();
 
+
+struct SensorData {};
+void process_by_value(SensorData data);
+void process_by_pointer(SensorData* data);
+void process_by_reference(SensorData& data);
+
 void print_system_info() {
 #ifdef __linux__
     std::ifstream cpuModel("/proc/cpuinfo");
