@@ -4,8 +4,6 @@
 // function implementations are in the named source files
 void run_stack_tests(); 
 void run_passing_tests();
-void run_benchmarks();
-
 
 struct SensorData {};
 void process_by_value(SensorData data);
@@ -34,7 +32,9 @@ int main(int argc, char* argv[]) {
             }
         }
         else if (strcmp(argv[i], "--benchmark") == 0) {
-            run_benchmarks();
+            std::cout << "running all benchmarks..\n";
+            run_stack_tests();
+            run_passing_tests();
         }
     }
 

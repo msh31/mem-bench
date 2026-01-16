@@ -70,7 +70,7 @@ void test_large_heap() {
 }
 
 void run_stack_tests() {
-    std::cout << "Running stack tests (Only tries to allocate, does not use allocated memory)\n";
+    std::cout << "Running stack tests (Only tries to allocate and does not use allocated memory)\n";
 
     std::cout << "\n- Running Small Stack Test\n";
     test_small_stack();
